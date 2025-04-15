@@ -1,6 +1,9 @@
 ## Overview
 
-This project was originally started a year ago. I am currently in the process of finalizing the source code for this repository, with the goal of turning it into a complete MLOps-ready project.
+### 📘 Project Background
+
+This project was initially started a year ago with the primary goal of training and evaluating various models on the **VLSP 2016 Vietnamese Sentiment Analysis** dataset.  
+Currently, I am in the process of refining the source code, with the intention of transforming this repository into a fully structured, MLOps-ready project.
 
 ### 🔧 Current Status
 
