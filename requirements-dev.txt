@@ -27,3 +27,4 @@ jupyterlab>=4.0.0
 # Type checking
 types-requests>=2.31.0
 types-PyYAML>=6.0.0
+
