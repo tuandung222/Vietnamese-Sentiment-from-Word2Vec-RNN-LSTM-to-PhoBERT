@@ -1,0 +1,31 @@
+# LSTM Baseline Experiment Configuration
+experiment:
+  name: "lstm_baseline"
+  description: "LSTM model with PhoW2Vec embeddings for Vietnamese sentiment analysis"
+  tags: ["lstm", "baseline", "phow2vec"]
+
+model:
+  name: "lstm"
+  params:
+    input_dim: 300
+    hidden_dims: [384, 384]
+    output_dim: 3
+    n_layers: 2
+    bidirectional: true
+    dropout: 0.3
+    max_length: 64
+
+training:
+  max_epochs: 128
+  max_patience: 12
+  batch_size: 1024
+  lr: 7.5e-4
+  weight_decay: 1e-2
+  betas: [0.9, 0.995]
+
+data:
+  augmentation: true
+  train_split: 0.8
+  val_split: 0.1
+  test_split: 0.1
+

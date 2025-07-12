@@ -65,6 +65,7 @@ This project implements state-of-the-art deep learning models for Vietnamese sen
 ```bash
 # Clone the repository
 git clone https://github.com/yourusername/vietnamese-sentiment-analysis.git
+
 cd vietnamese-sentiment-analysis
 
 # Create virtual environment
@@ -287,6 +288,7 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 - Write docstrings for all functions
 - Add unit tests for new features
 
+
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -306,3 +308,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 **Note**: This project is actively maintained and follows MLOps best practices. For the latest updates, please check the [releases page](https://github.com/yourusername/vietnamese-sentiment-analysis/releases).
+
