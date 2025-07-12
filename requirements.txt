@@ -1,19 +1,35 @@
-wandb
-torch
-transformers
-evaluate
-easydict
-datasets
-spacy
-pandas
-numpy
-pickle
-datetime
-gensim
-underthesea
-pyvi
-gdown
-wget
-nltk
-prettytable
-tqdm
+# Core ML/DL libraries
+torch>=2.0.0
+transformers>=4.30.0
+datasets>=2.12.0
+evaluate>=0.4.0
+
+# Vietnamese NLP
+underthesea>=1.3.0
+pyvi>=0.1.1
+gensim>=4.3.0
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+spacy>=3.6.0
+nltk>=3.8.0
+
+# Experiment tracking
+wandb>=0.15.0
+
+# Configuration management
+hydra-core>=1.3.0
+omegaconf>=2.3.0
+
+# Utilities
+tqdm>=4.65.0
+prettytable>=3.8.0
+easydict>=1.9.0
+
+# Data download
+gdown>=4.7.0
+wget>=3.2
+
+# Type hints
+typing-extensions>=4.5.0
