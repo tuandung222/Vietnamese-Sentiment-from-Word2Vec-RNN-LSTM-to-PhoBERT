@@ -1,0 +1,26 @@
+# PhoBERT Baseline Experiment Configuration
+experiment:
+  name: "phobert_baseline"
+  description: "PhoBERT model for Vietnamese sentiment analysis"
+  tags: ["phobert", "baseline", "transformer"]
+
+model:
+  name: "phobert"
+  params:
+    model_name: "vinai/phobert-base-v2"
+    num_classes: 3
+    max_length: 64
+
+training:
+  max_epochs: 128
+  max_patience: 12
+  batch_size: 512
+  lr: 1e-5
+  weight_decay: 1e-1
+  betas: [0.9, 0.995]
+
+data:
+  augmentation: false  # PhoBERT doesn't need EDA
+  train_split: 0.8
+  val_split: 0.1
+  test_split: 0.1
