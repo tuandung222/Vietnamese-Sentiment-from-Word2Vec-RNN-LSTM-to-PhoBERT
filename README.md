@@ -300,10 +300,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Weights & Biases for experiment tracking
 - The open-source community
 
-## 📞 Contact
-
-- **Project Link**: [https://github.com/yourusername/vietnamese-sentiment-analysis](https://github.com/yourusername/vietnamese-sentiment-analysis)
-- **Issues**: [GitHub Issues](https://github.com/yourusername/vietnamese-sentiment-analysis/issues)
 
 ---
 
